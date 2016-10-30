@@ -1,0 +1,316 @@
+@font-face {
+    font-family: 'MarketSans-Regular-WebS';
+    src: url('fonts/MarketSans-Regular-WebS.eot');
+    /* IE9 Compat Modes */
+    src: url('fonts/webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('fonts/MarketSans-Regular-WebS.woff2') format('woff2'), /* Super Modern Browsers */
+    url('fonts/MarketSans-SemiBold-WebS.woff') format('woff'), /* Pretty Modern Browsers */
+    url('fonts/MarketSans-Regular-WebS.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('fonts/MarketSans-Regular-WebS#svgFontName') format('svg');
+    /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'MarketSans-SemiBold-WebS';
+    src: url('fonts/MarketSans-SemiBold-WebS.eot');
+    /* IE9 Compat Modes */
+    src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('fonts/MarketSans-SemiBold-WebS.woff2') format('woff2'), /* Super Modern Browsers */
+    url('fonts/MarketSans-SemiBold-WebS.woff') format('woff'), /* Pretty Modern Browsers */
+    url('fonts/MarketSans-SemiBold-WebS.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('fonts/MarketSans-SemiBold-WebS#svgFontName') format('svg');
+    /* Legacy iOS */
+}
+
+
+/*  temporary stylings for new brand. Delete when in codebase proper */
+
+h1.jumbo {
+    font-size: 72px;
+    line-height: 93px;
+    font-weight: 700;
+    font-family: "MarketSans-SemiBold-WebS";
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 54px;
+    font-weight: 700;
+    font-family: "MarketSans-SemiBold-WebS", helvetica, arial;
+}
+
+h2 {
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 700;
+    font-family: "MarketSans-SemiBold-WebS", helvetica, arial;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    font-family: "MarketSans-SemiBold-WebS", helvetica, arial;
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+    font-family: "MarketSans-SemiBold-WebS", helvetica, arial;
+}
+
+h5 {
+    font-size: 14px;
+    line-height: 26px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "MarketSans-SemiBold-WebS", helvetica, arial;
+}
+
+p {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: normal;
+    font-family: "MarketSans-Regular-WebS", helvetica, arial;
+}
+
+p.caption01 {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: normal;
+    font-family: "MarketSans-Regular-WebS", helvetica, arial;
+}
+
+p.caption02 {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: normal;
+    font-family: "MarketSans-Regular-WebS", helvetica, arial;
+}
+
+
+/* end of temporary stylings */
+
+
+/* component classes */
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.m-b-0 {
+    margin-bottom: 0px;
+}
+
+.m-t-0 {
+    margin-top: 0px;
+}
+
+.m-t-10 {
+    margin-top: 10px;
+}
+
+.m-t-20 {
+    margin-top: 20px;
+}
+
+.m-b-10 {
+    margin-bottom: 10px;
+}
+
+.m-b-20 {
+    margin-bottom: 20px;
+}
+
+.m-b-30 {
+    margin-bottom: 30px;
+}
+
+.m-b-40 {
+    margin-bottom: 40px;
+}
+
+.m-b-60 {
+    margin-bottom: 60px;
+}
+
+.m-b-80 {
+    margin-bottom: 80px;
+}
+
+.jumbo {
+    font-size: 72px;
+}
+
+
+/* Navigation */
+
+.bg-faded {
+    background-color: #fafafa;
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 30px;
+}
+
+
+/* Header */
+
+header {
+    background-color: #5839B5;
+    height: 245px;
+    margin: 0px !important;
+}
+
+header .container {
+    position: relative;
+    padding-top: 70px;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    opacity: 0.85;
+}
+
+header p.logo {
+    position: absolute;
+    top: 15px;
+    left: 0px;
+    color: white;
+    opacity: 0.7;
+    font-size: 19px;
+    font-weight: 500 !important;
+    font-family: helvetica, arial;
+}
+
+
+/* Intro Section */
+
+.intro {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.intro h1 {
+    color: #FF5151;
+    margin-top: 10px;
+}
+
+.intro p {
+    max-width: 700px;
+}
+
+.intro ul li {
+    display: inline;
+    border-right: 1px solid #006efc;
+    padding-right: 20px;
+    margin-right: 20px;
+    color: #006efc;
+}
+
+.intro ul li a:hover {
+    color: #006efc;
+    text-decoration: none;
+    border-bottom: 1px solid #006efc;
+    padding-bottom: 3px;
+}
+
+.intro ul li:last-child {
+    border-right: none;
+}
+
+.intro ul {
+    margin-left: 0px !important;
+    padding-left: 0 !important;
+    margin-bottom: 25px;
+}
+
+
+/* Modules */
+
+.module.text {
+    border: 1px solid #eee;
+    margin-bottom: 40px;
+}
+
+.module .description h5 {
+    color: #006efc;
+    margin-bottom: 10px;
+}
+
+.module-content {
+    padding-left: 20px;
+}
+
+.module .display {
+    color: #444;
+}
+
+.module .display img {
+	padding-bottom: 30px;
+}
+
+
+.module .module-heading {
+    background-color: #eee;
+    height: 47px;
+    margin-bottom: 40px;
+}
+
+.module .module-heading h5 {
+    color: #9B9B9B;
+    padding-top: 18px;
+    padding-left: 20px;
+}
+
+.module p {
+    color: #4A4A4A;
+    margin-bottom: 0px;
+}
+
+.module.text .meta-desc {
+    color: #999;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+
+/*.module p.codeblock {
+    margin-top: 10px;
+}*/
+
+.module code {
+    padding: 0.9rem 0.7rem;
+    font-size: 12px;
+    display: block;
+    color: #777;
+    background-color: #fafafa;
+    border-radius: 0;
+    box-shadow: 0px 1px 8px rgba(1, 1, 1, 0.1);
+    margin-top: 10px;
+}
+
+.module h1,
+.module h2,
+.module h3,
+.module h4,
+.module h5,
+.module p {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    line-height: 1em;
+}
+
+.module p.description {
+    line-height: 1.3em;
+    color: #666;
+}
+
+/* Component sections on Component Page */
+.component h4 {
+	color: #FF5151;
+	margin-bottom: 20px;
+}
